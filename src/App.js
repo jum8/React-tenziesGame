@@ -8,10 +8,6 @@ function App() {
   const [dice, setDice] = React.useState(allNewDice());
   const [tenzies, setTenzies] = React.useState(false);
 
-  function randomDiceNumber() {
-    return Math.floor(6 * Math.random()) + 1;
-  }
-
   function newDie() {
     return {
       value: Math.floor(6 * Math.random()) + 1,
