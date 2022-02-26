@@ -8,14 +8,14 @@ body {
   font-family: 'Karla', sans-serif;
   display: flex;
   flex-direction: column;
-  min-width: 100vh;
+  min-height: 100vh;
 }
 
 #root {
+  align-items: center;
   background-color: #0B2434;
   display: flex;
   flex-grow: 1;
-  /* width:350px; */
   justify-content: center;
   padding: 30px 20px;
 }
